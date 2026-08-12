@@ -1,12 +1,12 @@
 # Inter-VLAN Routing – Cisco Packet Tracer
 
-## 📌 Proje Hakkında
+##  Proje Hakkında
 
 Bu proje, **Cisco Packet Tracer** üzerinde farklı VLAN'lar arasında iletişim sağlamak amacıyla **Inter-VLAN Routing** yapılandırmasını göstermektedir.
 
 Router üzerinde **Router-on-a-Stick** yöntemi kullanılarak VLAN'lar arasında Layer 3 yönlendirme gerçekleştirilmiştir.
 
-## 🏗️ Proje Yapısı
+##  Proje Yapısı
 
 * 1 Router
 * 3 Switch
@@ -15,7 +15,7 @@ Router üzerinde **Router-on-a-Stick** yöntemi kullanılarak VLAN'lar arasında
 * VLAN 20 – PAZARLAMA
 * VLAN 30 – KİŞİSEL
 
-## 🌐 IP Planı
+##  IP Planı
 
 | VLAN    | Departman | Network         | Gateway      |
 | ------- | --------- | --------------- | ------------ |
@@ -23,7 +23,7 @@ Router üzerinde **Router-on-a-Stick** yöntemi kullanılarak VLAN'lar arasında
 | VLAN 20 | PAZARLAMA | 192.168.20.0/24 | 192.168.20.1 |
 | VLAN 30 | KİŞİSEL   | 192.168.30.0/24 | 192.168.30.1 |
 
-## 🔧 Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 
 * VLAN
 * Access Port
@@ -34,7 +34,7 @@ Router üzerinde **Router-on-a-Stick** yöntemi kullanılarak VLAN'lar arasında
 * Cisco IOS
 * Cisco Packet Tracer
 
-## 🎯 Projenin Amacı
+##  Projenin Amacı
 
 Farklı VLAN'larda bulunan cihazların router üzerinden yönlendirilerek birbirleriyle iletişim kurmasını sağlamaktır.
 
@@ -44,7 +44,7 @@ Bu yapı sayesinde:
 
 arasında iletişim gerçekleştirilebilir.
 
-## ⚙️ Çalışma Mantığı
+##  Çalışma Mantığı
 
 1. Switch'ler üzerinde VLAN 10, VLAN 20 ve VLAN 30 oluşturulmuştur.
 2. Uç cihazlar ilgili VLAN'lara atanmıştır.
@@ -54,7 +54,7 @@ arasında iletişim gerçekleştirilebilir.
 6. Her subinterface'e ilgili VLAN'ın gateway adresi verilmiştir.
 7. Router, VLAN'lar arasındaki trafiği yönlendirmiştir.
 
-## 🧪 Bağlantı Testi
+##  Bağlantı Testi
 
 VLAN'lar arasındaki iletişim **ping** komutu kullanılarak test edilmiştir.
 
@@ -67,7 +67,7 @@ ping 192.168.30.x
 
 Başarılı ping sonucunda farklı VLAN'lardaki cihazların birbirleriyle iletişim kurabildiği doğrulanmıştır.
 
-## 📚 Öğrenilen Konular
+##  Öğrenilen Konular
 
 * VLAN oluşturma
 * VLAN'lara cihaz atama
@@ -79,10 +79,5 @@ Başarılı ping sonucunda farklı VLAN'lardaki cihazların birbirleriyle ileti�
 * Default Gateway yapılandırması
 * Ping ile bağlantı testi
 
-## 📁 Proje Dosyası
-
-Cisco Packet Tracer proje dosyası (`.pkt`) bu repository içerisinde bulunmaktadır.
-
----
 
 **Cisco Packet Tracer | Networking Lab | Inter-VLAN Routing**
